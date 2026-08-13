@@ -1,0 +1,5 @@
+Feature,Mean_Absolute_SHAP_min,Feature_Label
+Retarder_pct_BWOC,74.46241465911734,Retarder (% BWOC)
+BHCT_F,42.32354301550663,BHCT (°F)
+Depth_ft,7.109339033864776,Depth (ft)
+Slurry_Density_ppg,3.58016964124641,Slurry density (ppg)
