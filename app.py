@@ -93,9 +93,44 @@ data = load_data()
 st.title("AI-Assisted Cement Slurry Thickening-Time Prediction")
 
 st.markdown("**Developed by Kshipra S. Kapoor, PhD**")
-st.caption(
-    "Explainable machine learning portfolio project for upstream cementing data science"
+
+st.markdown(
+    """
+When an oil or gas well is drilled, a **steel pipe called casing** is placed
+inside the drilled hole. A liquid cement mixture is then pumped down the pipe
+and into the space between the casing and the surrounding rock.
+
+Once it hardens, the cement helps **hold the pipe in place, seal underground
+layers from one another, and protect the integrity of the well**.
+
+### Why does timing matter?
+
+The cement must remain liquid long enough to be pumped **thousands of feet
+underground and placed where it is needed**. But after it reaches the correct
+location, it needs to begin thickening and eventually harden.
+
+If the cement thickens **too early**, it may become difficult or impossible
+to finish pumping.
+
+This app demonstrates how **machine learning can help study and predict that
+timing** using four important well and cement-slurry conditions:
+
+- **Temperature** — how hot the cement becomes underground.
+- **Well depth** — how far underground the cement is being placed.
+- **Retarder concentration** — how much of a chemical additive is used to
+  **slow cement thickening and provide more pumping time**.
+- **Slurry density** — how **heavy the liquid cement mixture is for a given
+  volume**, measured in pounds per gallon.
+
+The machine-learning model estimates **how long the cement slurry is expected
+to remain pumpable before it thickens**.
+
+The app also lets you explore **why the model made its prediction** and how
+changing temperature or retarder concentration changes the predicted
+thickening time.
+"""
 )
+
 st.caption(
     "Synthetic engineering data → Random Forest → SHAP explainability → "
     "sensitivity analysis → engineer-facing deployment"
