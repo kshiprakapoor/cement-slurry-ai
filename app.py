@@ -91,6 +91,11 @@ features = artifact["features"]
 data = load_data()
 
 st.title("AI-Assisted Cement Slurry Thickening-Time Prediction")
+
+st.markdown("**Developed by Kshipra S. Kapoor, PhD**")
+st.caption(
+    "Explainable machine learning portfolio project for upstream cementing data science"
+)
 st.caption(
     "Synthetic engineering data → Random Forest → SHAP explainability → "
     "sensitivity analysis → engineer-facing deployment"
@@ -280,5 +285,10 @@ This project demonstrates:
 Real slurry behavior depends on many additional variables including cement chemistry,
 additive package, pressure, water chemistry, rheology, mixing history, and laboratory
 temperature/pressure schedules. This project intentionally does not claim field validation.
+
+---
+
+**Developed by Kshipra S. Kapoor, PhD | Houston, TX**
+
         """
     )
