@@ -1,0 +1,11 @@
+{
+  "MAE_min": 16.72,
+  "RMSE_min": 21.434,
+  "R2": 0.9583,
+  "feature_importance": {
+    "Retarder_pct_BWOC": 0.6936,
+    "BHCT_F": 0.2642,
+    "Depth_ft": 0.033,
+    "Slurry_Density_ppg": 0.0091
+  }
+}
