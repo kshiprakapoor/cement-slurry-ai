@@ -103,7 +103,7 @@ and into the space between the casing and the surrounding rock.
 Once it hardens, the cement helps **hold the pipe in place, seal underground
 layers from one another, and protect the integrity of the well**.
 
-### Why does timing matter?
+**Why does timing matter?**
 
 The cement must remain liquid long enough to be pumped **thousands of feet
 underground and placed where it is needed**. But after it reaches the correct
